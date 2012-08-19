@@ -16,6 +16,5 @@ Files
 -----
 
 amesser-linear.lib
-
   Linear ICs: ICL7665, TL494
 
