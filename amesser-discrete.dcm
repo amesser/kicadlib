@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0  Date: Mi 12 Dez 2012 11:53:51 CET
+#
+$CMP BAT54C
+D Double diode Shottky (Serie)
+K DEV DIODE
+$ENDCMP
+#
+#End Doc Library
