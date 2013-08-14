@@ -27,6 +27,9 @@ amesser-ad.lib
 amesser-conn.lib
   Connectors: SD/MMC Card
 
+amesser-cmos4000.lib
+  CMOS 4000: 4007 Tripple Complementary CMOS pair
+
 amesser-discrete.lib
   Diodes: BAT54C, BAT54S
 
