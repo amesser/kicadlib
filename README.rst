@@ -33,6 +33,9 @@ amesser-cmos4000.lib
 amesser-discrete.lib
   Diodes: BAT54C, BAT54S
 
+amesser-usb.lib
+  Diodes: USN9604
+
 amesser-power.lib
   Powersupply nodes: -3.6V, -3.3V, 3.6V, 29V
 
