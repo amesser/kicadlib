@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Mi 19 Mär 2014 18:55:15 CET
+PCBNEW-LibModule-V1  Di 25 Mär 2014 22:05:28 CET
 # encoding utf-8
 Units mm
 $INDEX
@@ -9,9 +9,10 @@ $MODULE TQFN_EP_56
 Po 0 0 0 15 5329D98B 00000000 ~~
 Li TQFN_EP_56
 Sc 0
-AR 
+AR /52F78B84/52F7B06D
 Op 0 0 0
-T0 0 -4.318 1 1 0 0.15 N V 21 N "TQFN_56"
+.LocalClearance 0.15
+T0 0 -4.318 1 1 0 0.15 N V 21 N "U5"
 T1 0 4.572 1 1 0 0.15 N V 21 N "MAX98089"
 DC -3.048 3.048 -3.048 3.302 0.15 21
 DS -3.5 -3.5 -3.5 3.5 0.15 21
@@ -36,7 +37,7 @@ $PAD
 Sh "3" R 0.2 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 11 "GND"
 Po -1.8 3.3
 $EndPAD
 $PAD
@@ -50,42 +51,42 @@ $PAD
 Sh "5" R 0.2 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 4 "/Audio Codec/CLK"
 Po -1 3.3
 $EndPAD
 $PAD
 Sh "6" R 0.2 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 2 "+3.3V"
 Po -0.6 3.3
 $EndPAD
 $PAD
 Sh "7" R 0.2 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 9 "/Audio Codec/Sound_Out"
 Po -0.2 3.3
 $EndPAD
 $PAD
 Sh "8" R 0.2 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 7 "/Audio Codec/Sound_CLK"
 Po 0.2 3.3
 $EndPAD
 $PAD
 Sh "9" R 0.2 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 8 "/Audio Codec/Sound_In"
 Po 0.6 3.3
 $EndPAD
 $PAD
 Sh "10" R 0.2 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 10 "/Audio Codec/Sound_WS"
 Po 1 3.3
 $EndPAD
 $PAD
@@ -120,91 +121,91 @@ $PAD
 Sh "15" R 0.4 0.2 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 17 "N-00000137"
 Po 3.3 2.6
 $EndPAD
 $PAD
 Sh "16" R 0.4 0.2 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 11 "GND"
 Po 3.3 2.2
 $EndPAD
 $PAD
 Sh "17" R 0.4 0.2 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 12 "N-00000131"
 Po 3.3 1.8
 $EndPAD
 $PAD
 Sh "18" R 0.4 0.2 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 2 "+3.3V"
 Po 3.3 1.4
 $EndPAD
 $PAD
 Sh "19" R 0.4 0.2 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 2 "+3.3V"
 Po 3.3 1
 $EndPAD
 $PAD
 Sh "20" R 0.4 0.2 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 13 "N-00000132"
 Po 3.3 0.6
 $EndPAD
 $PAD
 Sh "21" R 0.4 0.2 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 11 "GND"
 Po 3.3 0.2
 $EndPAD
 $PAD
 Sh "22" R 0.4 0.2 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 14 "N-00000133"
 Po 3.3 -0.2
 $EndPAD
 $PAD
 Sh "23" R 0.4 0.2 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 16 "N-00000135"
 Po 3.3 -0.6
 $EndPAD
 $PAD
 Sh "24" R 0.4 0.2 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 15 "N-00000134"
 Po 3.3 -1
 $EndPAD
 $PAD
 Sh "25" R 0.4 0.2 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 1 "+1.8V"
 Po 3.3 -1.4
 $EndPAD
 $PAD
 Sh "26" R 0.4 0.2 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 29 "N-00000162"
 Po 3.3 -1.8
 $EndPAD
 $PAD
 Sh "27" R 0.4 0.2 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 24 "N-00000156"
 Po 3.3 -2.2
 $EndPAD
 $PAD
@@ -225,70 +226,70 @@ $PAD
 Sh "30" R 0.2 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 11 "GND"
 Po 2.2 -3.3
 $EndPAD
 $PAD
 Sh "31" R 0.2 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 25 "N-00000157"
 Po 1.8 -3.3
 $EndPAD
 $PAD
 Sh "32" R 0.2 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 28 "N-00000160"
 Po 1.4 -3.3
 $EndPAD
 $PAD
 Sh "33" R 0.2 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 27 "N-00000159"
 Po 1 -3.3
 $EndPAD
 $PAD
 Sh "34" R 0.2 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 11 "GND"
 Po 0.6 -3.3
 $EndPAD
 $PAD
 Sh "35" R 0.2 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 26 "N-00000158"
 Po 0.2 -3.3
 $EndPAD
 $PAD
 Sh "36" R 0.2 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 21 "N-00000147"
 Po -0.2 -3.3
 $EndPAD
 $PAD
 Sh "37" R 0.2 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 20 "N-00000146"
 Po -0.6 -3.3
 $EndPAD
 $PAD
 Sh "38" R 0.2 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 18 "N-00000139"
 Po -1 -3.3
 $EndPAD
 $PAD
 Sh "39" R 0.2 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 19 "N-00000144"
 Po -1.4 -3.3
 $EndPAD
 $PAD
@@ -344,77 +345,77 @@ $PAD
 Sh "47" R 0.4 0.2 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 11 "GND"
 Po -3.3 -1
 $EndPAD
 $PAD
 Sh "48" R 0.4 0.2 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 22 "N-00000154"
 Po -3.3 -0.6
 $EndPAD
 $PAD
 Sh "49" R 0.4 0.2 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 23 "N-00000155"
 Po -3.3 -0.2
 $EndPAD
 $PAD
 Sh "50" R 0.4 0.2 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 1 "+1.8V"
 Po -3.3 0.2
 $EndPAD
 $PAD
 Sh "51" R 0.4 0.2 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 5 "/Audio Codec/SCL"
 Po -3.3 0.6
 $EndPAD
 $PAD
 Sh "52" R 0.4 0.2 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 6 "/Audio Codec/SDA"
 Po -3.3 1
 $EndPAD
 $PAD
 Sh "53" R 0.4 0.2 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 1 "+1.8V"
 Po -3.3 1.4
 $EndPAD
 $PAD
 Sh "54" R 0.4 0.2 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 11 "GND"
 Po -3.3 1.8
 $EndPAD
 $PAD
 Sh "55" R 0.4 0.2 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 2 "+3.3V"
 Po -3.3 2.2
 $EndPAD
 $PAD
 Sh "56" R 0.4 0.2 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 3 "/Audio Codec/#IRQ"
 Po -3.3 2.6
 $EndPAD
 $PAD
 Sh "EP" R 5.5 5.5 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 11 "GND"
 Po 0 0
 $EndPAD
 $EndMODULE TQFN_EP_56
