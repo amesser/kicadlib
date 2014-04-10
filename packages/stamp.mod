@@ -1,0 +1,361 @@
+PCBNEW-LibModule-V1  Do 10 Apr 2014 17:34:34 CEST
+# encoding utf-8
+Units mm
+$INDEX
+T2_L4A_8650C
+$EndINDEX
+$MODULE T2_L4A_8650C
+Po 0 0 0 15 5346B9AC 00000000 ~~
+Li T2_L4A_8650C
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -2.286 1 1 0 0.15 N V 21 N "T2_L4A_8650C"
+T1 0 0 1 1 0 0.15 N V 21 N "VAL**"
+DC -12 -11 -12 -10 0.15 21
+DS -9.4 -9.4 -9.4 9.4 0.15 21
+DS -9.4 9.4 9.4 9.4 0.15 21
+DS 9.4 9.4 9.4 -9.4 0.15 21
+DS 9.4 -9.4 -9.4 -9.4 0.15 21
+DS -13 -13 -13 13 0.15 21
+DS -13 13 13 13 0.15 21
+DS 13 13 13 -13 0.15 21
+DS 13 -13 -13 -13 0.15 21
+$PAD
+Sh "1" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -13 -11
+$EndPAD
+$PAD
+Sh "2" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -13 -9
+$EndPAD
+$PAD
+Sh "3" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -13 -7
+$EndPAD
+$PAD
+Sh "4" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -13 -5
+$EndPAD
+$PAD
+Sh "5" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -13 -3
+$EndPAD
+$PAD
+Sh "6" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -13 -1
+$EndPAD
+$PAD
+Sh "7" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -13 1
+$EndPAD
+$PAD
+Sh "8" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -13 3
+$EndPAD
+$PAD
+Sh "9" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -13 5
+$EndPAD
+$PAD
+Sh "10" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -13 7
+$EndPAD
+$PAD
+Sh "11" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -13 9
+$EndPAD
+$PAD
+Sh "12" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -13 11
+$EndPAD
+$PAD
+Sh "13" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -11 13
+$EndPAD
+$PAD
+Sh "14" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -9 13
+$EndPAD
+$PAD
+Sh "15" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -7 13
+$EndPAD
+$PAD
+Sh "16" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -5 13
+$EndPAD
+$PAD
+Sh "17" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3 13
+$EndPAD
+$PAD
+Sh "18" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1 13
+$EndPAD
+$PAD
+Sh "19" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1 13
+$EndPAD
+$PAD
+Sh "20" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3 13
+$EndPAD
+$PAD
+Sh "21" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5 13
+$EndPAD
+$PAD
+Sh "22" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 7 13
+$EndPAD
+$PAD
+Sh "23" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 9 13
+$EndPAD
+$PAD
+Sh "24" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 11 13
+$EndPAD
+$PAD
+Sh "25" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 13 11
+$EndPAD
+$PAD
+Sh "26" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 13 9
+$EndPAD
+$PAD
+Sh "27" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 13 7
+$EndPAD
+$PAD
+Sh "28" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 13 5
+$EndPAD
+$PAD
+Sh "29" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 13 3
+$EndPAD
+$PAD
+Sh "30" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 13 1
+$EndPAD
+$PAD
+Sh "31" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 13 -1
+$EndPAD
+$PAD
+Sh "32" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 13 -3
+$EndPAD
+$PAD
+Sh "33" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 13 -5
+$EndPAD
+$PAD
+Sh "34" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 13 -7
+$EndPAD
+$PAD
+Sh "35" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 13 -9
+$EndPAD
+$PAD
+Sh "36" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 13 -11
+$EndPAD
+$PAD
+Sh "37" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 11 -13
+$EndPAD
+$PAD
+Sh "38" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 9 -13
+$EndPAD
+$PAD
+Sh "39" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 7 -13
+$EndPAD
+$PAD
+Sh "40" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5 -13
+$EndPAD
+$PAD
+Sh "41" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3 -13
+$EndPAD
+$PAD
+Sh "42" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1 -13
+$EndPAD
+$PAD
+Sh "43" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1 -13
+$EndPAD
+$PAD
+Sh "44" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3 -13
+$EndPAD
+$PAD
+Sh "45" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -5 -13
+$EndPAD
+$PAD
+Sh "46" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -7 -13
+$EndPAD
+$PAD
+Sh "47" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -9 -13
+$EndPAD
+$PAD
+Sh "48" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -11 -13
+$EndPAD
+$EndMODULE T2_L4A_8650C
+$EndLIBRARY
