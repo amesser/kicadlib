@@ -1,8 +1,10 @@
-PCBNEW-LibModule-V1  Do 20 Mär 2014 21:57:13 CET
+PCBNEW-LibModule-V1  Do 17 Apr 2014 18:42:54 CEST
 # encoding utf-8
 Units mm
 $INDEX
 ASFL1
+R-PDSO-G8
+S-PWSON-N6
 SSOP3
 pin_array_10x2
 pin_array_12x2
@@ -49,6 +51,154 @@ Ne 0 ""
 Po -1.27 -1.1049
 $EndPAD
 $EndMODULE ASFL1
+$MODULE R-PDSO-G8
+Po 0 0 0 15 53500488 00000000 ~~
+Li R-PDSO-G8
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -1.016 0.75 0.75 0 0.15 N V 21 N "R-PDSO-G8"
+T1 0 0.762 0.75 0.75 0 0.15 N V 21 N "VAL**"
+DC -2.032 1.524 -1.778 1.27 0.15 21
+DS -2.45 1.95 2.45 1.95 0.15 21
+DS 2.45 1.95 2.45 -1.95 0.15 21
+DS 2.45 -1.95 -2.45 -1.95 0.15 21
+DS -2.45 -1.95 -2.45 1.95 0.15 21
+$PAD
+Sh "1" R 0.6 1.55 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.905 2.7
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "2" R 0.6 1.55 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.635 2.7
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "3" R 0.6 1.55 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.635 2.7
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "4" R 0.6 1.55 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.905 2.7
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "5" R 0.6 1.55 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.905 -2.7
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "6" R 0.6 1.55 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.635 -2.7
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "7" R 0.6 1.55 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.635 -2.7
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "8" R 0.6 1.55 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.905 -2.7
+.LocalClearance 0.1
+$EndPAD
+$EndMODULE R-PDSO-G8
+$MODULE S-PWSON-N6
+Po 0 0 0 15 535000E1 00000000 ~~
+Li S-PWSON-N6
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -1.524 0.5 0.5 0 0.1 N V 21 N "S-PWSON-N6"
+T1 0 1.524 0.5 0.5 0 0.1 N V 21 N "VAL**"
+DC -0.75 0.75 -0.875 0.875 0.1 21
+DS -1 -1 -1 1 0.1 21
+DS -1 1 1 1 0.1 21
+DS 1 1 1 -1 0.1 21
+DS 1 -1 -1 -1 0.1 21
+$PAD
+Sh "6" R 0.3 0.7 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.65 -1.05
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "5" R 0.3 0.7 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -1.05
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "4" R 0.3 0.7 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.65 -1.05
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "3" R 0.3 0.7 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.65 1.05
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "2" R 0.3 0.7 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 1.05
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "1" R 0.3 0.7 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.65 1.05
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "EP" R 1.6 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0
+.LocalClearance 0.1
+$EndPAD
+$EndMODULE S-PWSON-N6
 $MODULE SSOP3
 Po 0 0 0 15 532B561B 00000000 ~~
 Li SSOP3
