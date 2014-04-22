@@ -1,0 +1,77 @@
+PCBNEW-LibModule-V1  Fr 18 Apr 2014 15:24:04 CEST
+# encoding utf-8
+Units mm
+$INDEX
+smd_0402x4
+$EndINDEX
+$MODULE smd_0402x4
+Po 0 0 0 15 5351275D 00000000 ~~
+Li smd_0402x4
+Sc 0
+AR 
+Op 0 0 0
+.LocalClearance 0.18
+T0 0 0 1 1 0 0.15 N V 21 N "smd_0402x4"
+T1 0 0 1 1 0 0.15 N V 21 N "VAL**"
+DS -1.1 -0.4 1.1 -0.4 0.15 21
+DS 1.1 -0.4 1.1 0.4 0.15 21
+DS 1.1 0.4 -1.1 0.4 0.15 21
+DS -1.1 0.4 -1.1 -0.4 0.15 21
+$PAD
+Sh "4" R 0.3 0.65 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.25 -0.575
+$EndPAD
+$PAD
+Sh "2" R 0.3 0.65 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.75 -0.575
+$EndPAD
+$PAD
+Sh "1" R 0.3 0.65 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.75 0.575
+$EndPAD
+$PAD
+Sh "3" R 0.3 0.65 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.25 0.575
+$EndPAD
+$PAD
+Sh "5" R 0.3 0.65 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.25 0.575
+$EndPAD
+$PAD
+Sh "7" R 0.3 0.65 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.75 0.575
+$EndPAD
+$PAD
+Sh "8" R 0.3 0.65 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.75 -0.575
+$EndPAD
+$PAD
+Sh "6" R 0.3 0.65 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.25 -0.575
+$EndPAD
+$EndMODULE smd_0402x4
+$EndLIBRARY
