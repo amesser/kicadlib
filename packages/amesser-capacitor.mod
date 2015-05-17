@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  So 07 Dez 2014 14:39:16 CET
+PCBNEW-LibModule-V1  So 17 Mai 2015 15:52:29 CEST
 # encoding utf-8
 Units mm
 $INDEX
@@ -18,7 +18,7 @@ mkp_1844_178x73
 mkp_1844_178x83
 $EndINDEX
 $MODULE cp_radial_rm35_80
-Po 0 0 0 15 54845843 00000000 ~~
+Po 0 0 0 15 55589CCB 00000000 ~~
 Li cp_radial_rm35_80
 Sc 0
 AR 
@@ -35,7 +35,7 @@ Po -1.75 0
 $EndPAD
 $PAD
 Sh "2" C 1.1 1.1 0 0 0
-Dr 0.6 0 0
+Dr 0.7 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 1.75 0

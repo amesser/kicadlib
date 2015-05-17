@@ -1,11 +1,11 @@
-PCBNEW-LibModule-V1  So 14 Dez 2014 10:03:19 CET
+PCBNEW-LibModule-V1  So 17 Mai 2015 15:50:20 CEST
 # encoding utf-8
 Units mm
 $INDEX
 bopla_ak700_8h
 $EndINDEX
 $MODULE bopla_ak700_8h
-Po 0 0 0 15 548D5245 00000000 ~~
+Po 0 0 0 15 55589C5E 00000000 ~~
 Li bopla_ak700_8h
 Sc 0
 AR 
@@ -79,57 +79,57 @@ DS 20 -11.5 20 -2 0.15 21
 DS 20 -2 -20 -2 0.15 21
 DS -20 -2 -20 -11.5 0.15 21
 $PAD
-Sh "1" C 2 2 0 0 0
-Dr 1 0 0
+Sh "1" C 2.3 2.3 0 0 0
+Dr 1.3 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po -17.5 0
 $EndPAD
 $PAD
-Sh "2" C 2 2 0 0 0
-Dr 1 0 0
+Sh "2" C 2.3 2.3 0 0 0
+Dr 1.3 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po -12.5 0
 $EndPAD
 $PAD
-Sh "3" C 2 2 0 0 0
-Dr 1 0 0
+Sh "3" C 2.3 2.3 0 0 0
+Dr 1.3 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po -7.5 0
 $EndPAD
 $PAD
-Sh "4" C 2 2 0 0 0
-Dr 1 0 0
+Sh "4" C 2.3 2.3 0 0 0
+Dr 1.3 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po -2.5 0
 $EndPAD
 $PAD
-Sh "5" C 2 2 0 0 0
-Dr 1 0 0
+Sh "5" C 2.3 2.3 0 0 0
+Dr 1.3 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 2.5 0
 $EndPAD
 $PAD
-Sh "6" C 2 2 0 0 0
-Dr 1 0 0
+Sh "6" C 2.3 2.3 0 0 0
+Dr 1.3 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 7.5 0
 $EndPAD
 $PAD
-Sh "7" C 2 2 0 0 0
-Dr 1 0 0
+Sh "7" C 2.3 2.3 0 0 0
+Dr 1.3 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 12.5 0
 $EndPAD
 $PAD
-Sh "8" C 2 2 0 0 0
-Dr 1 0 0
+Sh "8" C 2.3 2.3 0 0 0
+Dr 1.3 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 17.5 0
