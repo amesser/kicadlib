@@ -1,3 +1,7 @@
-EESchema-DOCLIB  Version 2.0  Date: Mi 24 Sep 2014 22:00:24 CEST
+EESchema-DOCLIB  Version 2.0  Date: Mo 18 Mai 2015 08:20:34 CEST
+#
+$CMP UNKNOWN_LCD_C39363-A319-B70
+D Unkown LCD Display extracted from a Telekom ISDN Cell Phone. Using a S1D10605 controller
+$ENDCMP
 #
 #End Doc Library
