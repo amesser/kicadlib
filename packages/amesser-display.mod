@@ -1,8 +1,9 @@
-PCBNEW-LibModule-V1  So 05 Okt 2014 14:54:42 CEST
+PCBNEW-LibModule-V1  Di 19 Mai 2015 13:21:54 CEST
 # encoding utf-8
 Units mm
 $INDEX
 KINGBRIGHT_SA39_11
+unkown_lcd_c39363-a319-b70
 $EndINDEX
 $MODULE KINGBRIGHT_SA39_11
 Po 0 0 0 15 54313F7D 00000000 ~~
@@ -87,4 +88,179 @@ Ne 0 ""
 Po 3.81 -5.08
 $EndPAD
 $EndMODULE KINGBRIGHT_SA39_11
+$MODULE unkown_lcd_c39363-a319-b70
+Po 0 0 0 15 555B1CA7 00000000 ~~
+Li unkown_lcd_c39363-a319-b70
+Sc 0
+AR 
+Op 0 0 0
+T0 0 0 1 1 0 0.15 N V 21 N "unkown_lcd_c39363-a319-b70"
+T1 0 0 1 1 0 0.15 N V 21 N "VAL**"
+DS 7.5 -15 7.5 -16 0.15 21
+DS 7.5 -16 -7.5 -16 0.15 21
+DS -7.5 -16 -7.5 -15 0.15 21
+DS -7.5 -15 -16 4.5 0.15 21
+DS -16 4.5 -16 8.5 0.15 21
+DS -16 8.5 16 8.5 0.15 21
+DS 16 8.5 16 4.5 0.15 21
+DS 16 4.5 7.5 -15 0.15 21
+DS 20 -15 -20 -15 0.15 21
+DS -20 -15 -20 15 0.15 21
+DS -20 15 20 15 0.15 21
+DS 20 15 20 -15 0.15 21
+$PAD
+Sh "1" R 0.7 5 0 0 1800
+Dr 0 0 0
+At SMD N 00880001
+Ne 0 ""
+Po -13.65 7.5
+$EndPAD
+$PAD
+Sh "2" R 0.7 5 0 0 1800
+Dr 0 0 0
+At SMD N 00880001
+Ne 0 ""
+Po -12.35 7.5
+$EndPAD
+$PAD
+Sh "3" R 0.7 5 0 0 1800
+Dr 0 0 0
+At SMD N 00880001
+Ne 0 ""
+Po -11.05 7.5
+$EndPAD
+$PAD
+Sh "4" R 0.7 5 0 0 1800
+Dr 0 0 0
+At SMD N 00880001
+Ne 0 ""
+Po -9.75 7.5
+$EndPAD
+$PAD
+Sh "5" R 0.7 5 0 0 1800
+Dr 0 0 0
+At SMD N 00880001
+Ne 0 ""
+Po -8.45 7.5
+$EndPAD
+$PAD
+Sh "6" R 0.7 5 0 0 1800
+Dr 0 0 0
+At SMD N 00880001
+Ne 0 ""
+Po -7.15 7.5
+$EndPAD
+$PAD
+Sh "7" R 0.7 5 0 0 1800
+Dr 0 0 0
+At SMD N 00880001
+Ne 0 ""
+Po -5.85 7.5
+$EndPAD
+$PAD
+Sh "8" R 0.7 5 0 0 1800
+Dr 0 0 0
+At SMD N 00880001
+Ne 0 ""
+Po -4.55 7.5
+$EndPAD
+$PAD
+Sh "9" R 0.7 5 0 0 1800
+Dr 0 0 0
+At SMD N 00880001
+Ne 0 ""
+Po -3.25 7.5
+$EndPAD
+$PAD
+Sh "10" R 0.7 5 0 0 1800
+Dr 0 0 0
+At SMD N 00880001
+Ne 0 ""
+Po -1.95 7.5
+$EndPAD
+$PAD
+Sh "11" R 0.7 5 0 0 1800
+Dr 0 0 0
+At SMD N 00880001
+Ne 0 ""
+Po -0.65 7.5
+$EndPAD
+$PAD
+Sh "12" R 0.7 5 0 0 1800
+Dr 0 0 0
+At SMD N 00880001
+Ne 0 ""
+Po 0.65 7.5
+$EndPAD
+$PAD
+Sh "13" R 0.7 5 0 0 1800
+Dr 0 0 0
+At SMD N 00880001
+Ne 0 ""
+Po 1.95 7.5
+$EndPAD
+$PAD
+Sh "14" R 0.7 5 0 0 1800
+Dr 0 0 0
+At SMD N 00880001
+Ne 0 ""
+Po 3.25 7.5
+$EndPAD
+$PAD
+Sh "15" R 0.7 5 0 0 1800
+Dr 0 0 0
+At SMD N 00880001
+Ne 0 ""
+Po 4.55 7.5
+$EndPAD
+$PAD
+Sh "16" R 0.7 5 0 0 1800
+Dr 0 0 0
+At SMD N 00880001
+Ne 0 ""
+Po 5.85 7.5
+$EndPAD
+$PAD
+Sh "17" R 0.7 5 0 0 1800
+Dr 0 0 0
+At SMD N 00880001
+Ne 0 ""
+Po 7.15 7.5
+$EndPAD
+$PAD
+Sh "18" R 0.7 5 0 0 1800
+Dr 0 0 0
+At SMD N 00880001
+Ne 0 ""
+Po 8.45 7.5
+$EndPAD
+$PAD
+Sh "19" R 0.7 5 0 0 1800
+Dr 0 0 0
+At SMD N 00880001
+Ne 0 ""
+Po 9.75 7.5
+$EndPAD
+$PAD
+Sh "20" R 0.7 5 0 0 1800
+Dr 0 0 0
+At SMD N 00880001
+Ne 0 ""
+Po 11.05 7.5
+$EndPAD
+$PAD
+Sh "21" R 0.7 5 0 0 1800
+Dr 0 0 0
+At SMD N 00880001
+Ne 0 ""
+Po 12.35 7.5
+$EndPAD
+$PAD
+Sh "22" R 0.7 5 0 0 1800
+Dr 0 0 0
+At SMD N 00880001
+Ne 0 ""
+Po 13.65 7.5
+$EndPAD
+$EndMODULE unkown_lcd_c39363-a319-b70
 $EndLIBRARY
