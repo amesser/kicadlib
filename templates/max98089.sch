@@ -1,0 +1,588 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:amesser-miscic
+LIBS:atsam4s
+LIBS:max98089
+LIBS:amesser-discrete
+LIBS:amesser-memory
+LIBS:amesser-diodes
+LIBS:dabradio-cache
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date "23 jul 2015"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MAX98089 U5
+U 1 1 52F7B06D
+P 7150 3800
+F 0 "U5" H 7900 1950 60  0000 C CNN
+F 1 "MAX98089" H 7150 3650 60  0000 C CNN
+F 2 "~" H 7150 3800 60  0000 C CNN
+F 3 "~" H 7150 3800 60  0000 C CNN
+	1    7150 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R12
+U 1 1 52F7B273
+P 5700 4000
+F 0 "R12" V 5780 4000 40  0000 C CNN
+F 1 "10k" V 5707 4001 40  0000 C CNN
+F 2 "~" V 5630 4000 30  0000 C CNN
+F 3 "~" H 5700 4000 30  0000 C CNN
+	1    5700 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C15
+U 1 1 52F7B448
+P 5250 4900
+F 0 "C15" H 5250 5000 40  0000 L CNN
+F 1 "1u" H 5256 4815 40  0000 L CNN
+F 2 "~" H 5288 4750 30  0000 C CNN
+F 3 "~" H 5250 4900 60  0000 C CNN
+	1    5250 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C13
+U 1 1 52F7B455
+P 4950 4900
+F 0 "C13" H 4950 5000 40  0000 L CNN
+F 1 "1u" H 4956 4815 40  0000 L CNN
+F 2 "~" H 4988 4750 30  0000 C CNN
+F 3 "~" H 4950 4900 60  0000 C CNN
+	1    4950 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C18
+U 1 1 52F7B535
+P 5800 4800
+F 0 "C18" H 5800 4900 40  0000 L CNN
+F 1 "1u" H 5806 4715 40  0000 L CNN
+F 2 "~" H 5838 4650 30  0000 C CNN
+F 3 "~" H 5800 4800 60  0000 C CNN
+	1    5800 4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C17
+U 1 1 52F7B5C8
+P 5850 5250
+F 0 "C17" H 5850 5350 40  0000 L CNN
+F 1 "1u" H 5856 5165 40  0000 L CNN
+F 2 "~" H 5888 5100 30  0000 C CNN
+F 3 "~" H 5850 5250 60  0000 C CNN
+	1    5850 5250
+	1    0    0    -1  
+$EndComp
+Text HLabel 6000 2700 0    60   Output ~ 0
+I2S1_OUT
+Text HLabel 6000 2600 0    60   Input ~ 0
+I2S1_IN
+Text HLabel 6000 2500 0    60   Output ~ 0
+I2S1_WS
+Text HLabel 6000 2400 0    60   Output ~ 0
+I2S1_CLK
+Text HLabel 5350 3700 0    60   BiDi ~ 0
+SCL
+Text HLabel 5350 3800 0    60   BiDi ~ 0
+SDA
+Text HLabel 5350 3900 0    60   Output ~ 0
+#IRQ
+$Comp
+L C C14
+U 1 1 52F7F438
+P 5200 2550
+F 0 "C14" H 5200 2650 40  0000 L CNN
+F 1 "1u" H 5206 2465 40  0000 L CNN
+F 2 "~" H 5238 2400 30  0000 C CNN
+F 3 "~" H 5200 2550 60  0000 C CNN
+	1    5200 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C19
+U 1 1 52F7F516
+P 6600 1450
+F 0 "C19" H 6600 1550 40  0000 L CNN
+F 1 "1u" H 6606 1365 40  0000 L CNN
+F 2 "~" H 6638 1300 30  0000 C CNN
+F 3 "~" H 6600 1450 60  0000 C CNN
+	1    6600 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C20
+U 1 1 52F7F603
+P 7700 1450
+F 0 "C20" H 7700 1550 40  0000 L CNN
+F 1 "1u" H 7706 1365 40  0000 L CNN
+F 2 "~" H 7738 1300 30  0000 C CNN
+F 3 "~" H 7700 1450 60  0000 C CNN
+	1    7700 1450
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 8250 1900
+NoConn ~ 8250 2100
+NoConn ~ 8250 2300
+NoConn ~ 8250 2400
+NoConn ~ 8250 2600
+NoConn ~ 8250 2700
+$Comp
+L C C25
+U 1 1 5344A6E8
+P 5000 2550
+F 0 "C25" H 5000 2650 40  0000 L CNN
+F 1 "1u" H 5006 2465 40  0000 L CNN
+F 2 "~" H 5038 2400 30  0000 C CNN
+F 3 "~" H 5000 2550 60  0000 C CNN
+	1    5000 2550
+	1    0    0    -1  
+$EndComp
+Text HLabel 4950 2300 0    60   Input ~ 0
++3.3V
+Text HLabel 6000 3100 0    60   Output ~ 0
+I2S2_CLK
+Text HLabel 6000 3200 0    60   Output ~ 0
+I2S2_WS
+Text HLabel 6000 3300 0    60   Input ~ 0
+I2S2_IN
+Text HLabel 6000 3400 0    60   Output ~ 0
+I2S2_OUT
+Text HLabel 8300 4000 2    60   Output ~ 0
+SPKL+
+Text HLabel 8300 4100 2    60   Output ~ 0
+SPKL-
+Text HLabel 8300 4500 2    60   Output ~ 0
+SPKR+
+Text HLabel 8300 4600 2    60   Output ~ 0
+SPKR-
+$Comp
+L C C?
+U 1 1 559C7E12
+P 5650 5250
+F 0 "C?" H 5650 5350 40  0000 L CNN
+F 1 "4u7" H 5656 5165 40  0000 L CNN
+F 2 "~" H 5688 5100 30  0000 C CNN
+F 3 "~" H 5650 5250 60  0000 C CNN
+	1    5650 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 559C7E24
+P 5450 5250
+F 0 "C?" H 5450 5350 40  0000 L CNN
+F 1 "4u7" H 5456 5165 40  0000 L CNN
+F 2 "~" H 5488 5100 30  0000 C CNN
+F 3 "~" H 5450 5250 60  0000 C CNN
+	1    5450 5250
+	1    0    0    -1  
+$EndComp
+Text HLabel 8400 4900 2    60   Output ~ 0
+HPL
+Text HLabel 8400 5000 2    60   Output ~ 0
+HPGND
+Text HLabel 8400 5100 2    60   Output ~ 0
+HPR
+$Comp
+L C C?
+U 1 1 559C8739
+P 8550 5800
+F 0 "C?" H 8550 5900 40  0000 L CNN
+F 1 "1u" H 8556 5715 40  0000 L CNN
+F 2 "~" H 8588 5650 30  0000 C CNN
+F 3 "~" H 8550 5800 60  0000 C CNN
+	1    8550 5800
+	-1   0    0    1   
+$EndComp
+Text HLabel 6850 1400 1    60   Input ~ 0
++1.8V
+Text HLabel 7450 1400 1    60   Input ~ 0
++1.8V
+Text HLabel 5450 4950 1    60   Input ~ 0
++1.8V
+Text HLabel 9750 4050 2    60   Input ~ 0
++3.3V
+Text HLabel 8300 3600 2    60   Output ~ 0
+LINEL
+Text HLabel 8300 3700 2    60   Output ~ 0
+LINER
+NoConn ~ 8250 2900
+NoConn ~ 8250 3000
+NoConn ~ 8250 3300
+NoConn ~ 8250 3200
+$Comp
+L C C?
+U 1 1 559C8BAD
+P 9000 4400
+F 0 "C?" H 9000 4500 40  0000 L CNN
+F 1 "1u" H 9006 4315 40  0000 L CNN
+F 2 "~" H 9038 4250 30  0000 C CNN
+F 3 "~" H 9000 4400 60  0000 C CNN
+	1    9000 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L C C?
+U 1 1 559C8BBD
+P 9500 4300
+F 0 "C?" H 9500 4400 40  0000 L CNN
+F 1 "4u7" H 9506 4215 40  0000 L CNN
+F 2 "~" H 9538 4150 30  0000 C CNN
+F 3 "~" H 9500 4300 60  0000 C CNN
+	1    9500 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 559C8BC3
+P 9700 4300
+F 0 "C?" H 9700 4400 40  0000 L CNN
+F 1 "4u7" H 9706 4215 40  0000 L CNN
+F 2 "~" H 9738 4150 30  0000 C CNN
+F 3 "~" H 9700 4300 60  0000 C CNN
+	1    9700 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C27
+U 1 1 52F7F8F6
+P 9000 3900
+F 0 "C27" H 9000 4000 40  0000 L CNN
+F 1 "1u" H 9006 3815 40  0000 L CNN
+F 2 "~" H 9038 3750 30  0000 C CNN
+F 3 "~" H 9000 3900 60  0000 C CNN
+	1    9000 3900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7450 6000 7450 5900
+Wire Wire Line
+	8250 5500 8550 5500
+Wire Wire Line
+	8350 5500 8350 5600
+Wire Wire Line
+	8250 5400 8750 5400
+Wire Wire Line
+	8350 6000 8350 6050
+Wire Wire Line
+	8550 6000 8550 6050
+Wire Wire Line
+	5350 3700 6050 3700
+Wire Wire Line
+	5350 3800 6050 3800
+Wire Wire Line
+	5350 3900 6050 3900
+Wire Wire Line
+	5250 5100 5250 5500
+Wire Wire Line
+	4950 5100 4950 5500
+Wire Wire Line
+	5550 4700 6050 4700
+Wire Wire Line
+	6000 4800 6050 4800
+Wire Wire Line
+	5450 5000 6050 5000
+Wire Wire Line
+	5450 4950 5450 5050
+Wire Wire Line
+	5250 4700 5250 4600
+Wire Wire Line
+	4950 4700 4950 4500
+Connection ~ 5450 5500
+Connection ~ 5250 5500
+Wire Wire Line
+	8250 4900 8400 4900
+Wire Wire Line
+	8250 5000 8400 5000
+Wire Wire Line
+	8250 5100 8400 5100
+Wire Wire Line
+	4650 4200 6050 4200
+Wire Wire Line
+	6050 2400 6000 2400
+Wire Wire Line
+	6000 2500 6050 2500
+Wire Wire Line
+	6050 2600 6000 2600
+Wire Wire Line
+	6000 2700 6050 2700
+Wire Wire Line
+	4950 2300 6050 2300
+Wire Wire Line
+	5200 2300 5200 2350
+Connection ~ 5200 2300
+Wire Wire Line
+	5200 2800 5200 2750
+Wire Wire Line
+	6850 5900 6850 6000
+Wire Wire Line
+	6350 1450 6400 1450
+Wire Wire Line
+	6850 1400 6850 1500
+Wire Wire Line
+	6850 1450 6800 1450
+Connection ~ 6850 1450
+Wire Wire Line
+	7450 1400 7450 1500
+Wire Wire Line
+	7450 1450 7500 1450
+Wire Wire Line
+	7950 1450 7900 1450
+Connection ~ 7450 1450
+Connection ~ 5450 5000
+Wire Wire Line
+	5400 3000 6050 3000
+Connection ~ 8300 5000
+Wire Wire Line
+	8250 4700 9750 4700
+Wire Wire Line
+	7150 5900 7150 6000
+Wire Wire Line
+	8250 4400 8800 4400
+Wire Wire Line
+	5350 4000 5450 4000
+Wire Wire Line
+	5950 4000 6000 4000
+Wire Wire Line
+	6000 4000 6000 3900
+Connection ~ 6000 3900
+Wire Wire Line
+	5400 2300 5400 3000
+Connection ~ 5400 2300
+Wire Wire Line
+	5000 2300 5000 2350
+Wire Wire Line
+	5000 2750 5000 2800
+Connection ~ 5000 2300
+Wire Wire Line
+	8250 4000 8300 4000
+Wire Wire Line
+	8300 4100 8250 4100
+Wire Wire Line
+	8250 4500 8300 4500
+Wire Wire Line
+	8250 4600 8300 4600
+Wire Wire Line
+	4950 4500 6050 4500
+Wire Wire Line
+	5250 4600 6050 4600
+Wire Wire Line
+	5650 5050 5650 5000
+Connection ~ 5650 5000
+Wire Wire Line
+	5850 5050 5850 5000
+Connection ~ 5850 5000
+Wire Wire Line
+	6050 5100 6000 5100
+Wire Wire Line
+	6000 5100 6000 5500
+Wire Wire Line
+	6000 5500 4900 5500
+Wire Wire Line
+	5650 5450 5650 5500
+Connection ~ 5650 5500
+Wire Wire Line
+	5850 5450 5850 5500
+Connection ~ 5850 5500
+Wire Wire Line
+	5600 4800 5550 4800
+Wire Wire Line
+	5550 4800 5550 4700
+Wire Wire Line
+	8300 3600 8250 3600
+Wire Wire Line
+	8250 3700 8300 3700
+Wire Wire Line
+	8750 3750 8750 4400
+Wire Wire Line
+	8250 3900 8800 3900
+Connection ~ 8750 4400
+Connection ~ 8750 3900
+Wire Wire Line
+	8250 4200 9250 4200
+Wire Wire Line
+	9250 3900 9250 4700
+Wire Wire Line
+	9250 3900 9200 3900
+Wire Wire Line
+	9250 4400 9200 4400
+Wire Wire Line
+	9500 3750 9500 4100
+Wire Wire Line
+	9700 4050 9700 4100
+Connection ~ 9500 4050
+Connection ~ 9250 4400
+Connection ~ 9250 4200
+Wire Wire Line
+	9500 4700 9500 4500
+Connection ~ 9250 4700
+Wire Wire Line
+	9700 4700 9700 4500
+Connection ~ 9500 4700
+Text HLabel 9750 4700 2    60   Input ~ 0
+GND
+Wire Wire Line
+	8750 3750 9500 3750
+Wire Wire Line
+	9500 4050 9750 4050
+Connection ~ 9700 4050
+Connection ~ 9700 4700
+Text HLabel 8400 5250 2    60   Input ~ 0
+GND
+Wire Wire Line
+	8300 5000 8300 5250
+Wire Wire Line
+	8300 5250 8400 5250
+$Comp
+L C C?
+U 1 1 559C93A7
+P 8350 5800
+F 0 "C?" H 8350 5900 40  0000 L CNN
+F 1 "1u" H 8356 5715 40  0000 L CNN
+F 2 "~" H 8388 5650 30  0000 C CNN
+F 3 "~" H 8350 5800 60  0000 C CNN
+	1    8350 5800
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C?
+U 1 1 559C93AD
+P 8750 5800
+F 0 "C?" H 8750 5900 40  0000 L CNN
+F 1 "1u" H 8756 5715 40  0000 L CNN
+F 2 "~" H 8788 5650 30  0000 C CNN
+F 3 "~" H 8750 5800 60  0000 C CNN
+	1    8750 5800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8750 5400 8750 5600
+Wire Wire Line
+	8550 5500 8550 5600
+Connection ~ 8350 5500
+Wire Wire Line
+	8750 6050 8750 6000
+Wire Wire Line
+	8350 6050 8800 6050
+Connection ~ 8550 6050
+Text HLabel 8800 6050 2    60   Input ~ 0
+GND
+Connection ~ 8750 6050
+Text HLabel 7500 6000 2    60   Input ~ 0
+GND
+Wire Wire Line
+	6850 6000 7500 6000
+Connection ~ 7450 6000
+Connection ~ 7150 6000
+Text HLabel 4900 5500 0    60   Input ~ 0
+GND
+Connection ~ 4950 5500
+Wire Wire Line
+	5450 5450 5450 5500
+Text HLabel 6350 1450 0    60   Input ~ 0
+GND
+Text HLabel 7950 1450 2    60   Input ~ 0
+GND
+Wire Wire Line
+	6000 3100 6050 3100
+Wire Wire Line
+	6050 3200 6000 3200
+Wire Wire Line
+	6000 3300 6050 3300
+Wire Wire Line
+	6050 3400 6000 3400
+Text HLabel 4950 2800 0    60   Input ~ 0
+GND
+Wire Wire Line
+	4950 2800 5200 2800
+Connection ~ 5000 2800
+$Comp
+L IQXO/7X X?
+U 1 1 55AEEA44
+P 4050 4350
+F 0 "X?" H 4050 4650 70  0000 C CNN
+F 1 "ASDMB-24.576MHZ-LC-T" H 4050 4350 70  0000 C CNN
+F 2 "" H 4050 4350 60  0000 C CNN
+F 3 "" H 4050 4350 60  0000 C CNN
+	1    4050 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 4500 4750 4500
+Wire Wire Line
+	4750 4500 4750 3950
+Wire Wire Line
+	4750 3950 3050 3950
+Wire Wire Line
+	3400 3950 3400 4200
+Wire Wire Line
+	3400 4200 3450 4200
+$Comp
+L C C?
+U 1 1 55AEEB4F
+P 3200 4250
+F 0 "C?" H 3200 4350 40  0000 L CNN
+F 1 "100n" H 3206 4165 40  0000 L CNN
+F 2 "~" H 3238 4100 30  0000 C CNN
+F 3 "~" H 3200 4250 60  0000 C CNN
+	1    3200 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 3950 3200 4050
+Connection ~ 3400 3950
+Wire Wire Line
+	3050 4500 3450 4500
+Wire Wire Line
+	3200 4500 3200 4450
+Text HLabel 3050 4500 0    60   Input ~ 0
+GND
+Text HLabel 3050 3950 0    60   Input ~ 0
++1.8V
+Connection ~ 3200 4500
+Connection ~ 3200 3950
+Text HLabel 5350 4000 0    60   Input ~ 0
++3.3V
+$EndSCHEMATC
