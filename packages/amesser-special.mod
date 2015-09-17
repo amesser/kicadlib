@@ -1,9 +1,95 @@
-PCBNEW-LibModule-V1  Sa 23 Aug 2014 10:26:35 CEST
+PCBNEW-LibModule-V1  Do 10 Sep 2015 21:32:31 CEST
 # encoding utf-8
 Units mm
 $INDEX
+ASDMB
+CX3225SB
 transformer-ddr-smps
 $EndINDEX
+$MODULE ASDMB
+Po 0 0 0 15 55F1C95A 00000000 ~~
+Li ASDMB
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -2.2 1 1 0 0.15 N V 21 N "ASDMB"
+T1 0 2.25 1 1 0 0.15 N V 21 N "VAL**"
+DC -0.95 0.7 -1.05 0.8 0.15 21
+DS -1.25 1 1.25 1 0.15 21
+DS 1.25 1 1.25 -1 0.15 21
+DS 1.25 -1 -1.25 -1 0.15 21
+DS -1.25 -1 -1.25 1 0.15 21
+$PAD
+Sh "2" R 0.65 0.85 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.825 0.775
+$EndPAD
+$PAD
+Sh "3" R 0.65 0.85 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.825 -0.775
+$EndPAD
+$PAD
+Sh "1" R 0.65 0.85 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.825 0.775
+$EndPAD
+$PAD
+Sh "4" R 0.65 0.85 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.825 -0.775
+$EndPAD
+$EndMODULE ASDMB
+$MODULE CX3225SB
+Po 0 0 0 15 55F1DA96 00000000 ~~
+Li CX3225SB
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -2.3 1 1 0 0.15 N V 21 N "CX3225SB"
+T1 0 2.4 1 1 0 0.15 N V 21 N "VAL**"
+DC -1.3 0.9 -1.2 0.7 0.15 21
+DS -1.7 -1.3 -1.7 1.3 0.15 21
+DS -1.7 1.3 1.7 1.3 0.15 21
+DS 1.7 1.3 1.7 -1.3 0.15 21
+DS 1.7 -1.3 -1.7 -1.3 0.15 21
+$PAD
+Sh "1" R 1.3 1.05 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.15 0.925
+$EndPAD
+$PAD
+Sh "3" R 1.3 1.05 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.15 0.925
+$EndPAD
+$PAD
+Sh "4" R 1.3 1.05 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.15 -0.925
+$EndPAD
+$PAD
+Sh "2" R 1.3 1.05 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.15 -0.925
+$EndPAD
+$EndMODULE CX3225SB
 $MODULE transformer-ddr-smps
 Po 0 0 0 15 53F84DAF 00000000 ~~
 Li transformer-ddr-smps
