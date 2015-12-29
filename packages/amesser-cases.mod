@@ -1,10 +1,11 @@
-PCBNEW-LibModule-V1  So 17 Mai 2015 17:46:07 CEST
+PCBNEW-LibModule-V1  Di 22 Dez 2015 12:41:58 CET
 # encoding utf-8
 Units mm
 $INDEX
 bopla_cn_45_ak_front
 bopla_cn_45_ak_horizontal
 bopla_cn_45_ak_vertical
+kemo_g02b
 $EndINDEX
 $MODULE bopla_cn_45_ak_front
 Po 0 0 0 15 5558B78C 00000000 ~~
@@ -181,4 +182,72 @@ DS 35.5 -39 35.5 35 0.15 21
 DS 35.5 35 -35.5 35 0.15 21
 DS -35.5 35 -35.5 -39 0.15 21
 $EndMODULE bopla_cn_45_ak_vertical
+$MODULE kemo_g02b
+Po 0 0 0 15 567936F4 00000000 ~~
+Li kemo_g02b
+Sc 0
+AR 
+Op 0 0 0
+T0 0 0 1 1 0 0.15 N V 21 N "kemo_g02b"
+T1 0 0 1 1 0 0.15 N V 21 N "VAL**"
+DS -33.5 1 33.5 1 0.15 21
+DA 30 -67 30 -71.5 900 0.15 21
+DS -34.5 -67 -34.5 0 0.15 21
+DA -30 -67 -34.5 -67 900 0.15 21
+DS 30 -71.5 -30 -71.5 0.15 21
+DS 34.5 0 34.5 -67.25 0.15 21
+DS 33.5 -67 33.5 0 0.15 21
+DS -30 -70.5 30 -70.5 0.15 21
+DS -33.5 0 -33.5 -67 0.15 21
+DS -36 -67 -36 0 0.15 21
+DS 30 -73 -30 -73 0.15 21
+DS 36 -67 36 0 0.15 21
+DA 30 -67 30 -73 900 0.15 21
+DA 30 -67 30 -70.5 900 0.15 21
+DA -30 -67 -36 -67 900 0.15 21
+DA -30 -67 -33.5 -67 900 0.15 21
+DS -33.5 0 33.5 0 0.15 21
+$PAD
+Sh "" C 5 5 0 0 0
+Dr 2.5 0 0
+At HOLE N 00F0FFFF
+Ne 0 ""
+Po 29.5 -5
+$EndPAD
+$PAD
+Sh "1" C 5 5 0 0 0
+Dr 2.5 0 0
+At HOLE N 00F0FFFF
+Ne 0 ""
+Po -29.5 -5
+$EndPAD
+$PAD
+Sh "2" C 5 5 0 0 0
+Dr 2.5 0 0
+At HOLE N 00F0FFFF
+Ne 0 ""
+Po 29.5 -59
+$EndPAD
+$PAD
+Sh "3" C 5 5 0 0 0
+Dr 2.5 0 0
+At HOLE N 00F0FFFF
+Ne 0 ""
+Po -29.5 -59
+$EndPAD
+$PAD
+Sh "" C 6 6 0 0 0
+Dr 3.5 0 0
+At HOLE N 00F0FFFF
+Ne 0 ""
+Po -30 -67
+$EndPAD
+$PAD
+Sh "1" C 6 6 0 0 0
+Dr 3.5 0 0
+At HOLE N 00F0FFFF
+Ne 0 ""
+Po 30 -67
+$EndPAD
+$EndMODULE kemo_g02b
 $EndLIBRARY
