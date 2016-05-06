@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Do 10 Sep 2015 21:19:42 CEST
+PCBNEW-LibModule-V1  Sa 23 Apr 2016 17:42:23 CEST
 # encoding utf-8
 Units mm
 $INDEX
@@ -8,6 +8,8 @@ RIACON_007-2
 bopla_ak700_4h
 bopla_ak700_8h
 hirose_dm3at
+keystone_electronics_106
+yamaichi_fps_009_2409
 $EndINDEX
 $MODULE MOLEX_SMA_JACK_73251
 Po 0 0 0 15 55F1D741 00000000 ~~
@@ -606,4 +608,175 @@ Ne 0 ""
 Po 7.2 7
 $EndPAD
 $EndMODULE hirose_dm3at
+$MODULE keystone_electronics_106
+Po 0 0 0 15 571B97DA 00000000 ~~
+Li keystone_electronics_106
+Kw Coin Cell Holder
+Sc 0
+AR 
+Op 0 0 0
+T0 0 0 1 1 0 0.15 N V 21 N "keystone_electronics_106"
+T1 0 0 1 1 0 0.15 N V 21 N "VAL**"
+DS -1.64 -2.5 1.78 -2.5 0.15 21
+DS 1.78 -2.5 1.78 2.5 0.15 21
+DS 1.78 2.5 -1.64 2.5 0.15 21
+DC -15.3 0 -29.18 0 0.15 21
+$PAD
+Sh "1" C 2.286 2.286 0 0 0
+Dr 1.524 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "2" C 2.286 2.286 0 0 0
+Dr 1.524 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -20.5 0
+$EndPAD
+$EndMODULE keystone_electronics_106
+$MODULE yamaichi_fps_009_2409
+Po 0 0 0 15 571B8A78 00000000 ~~
+Li yamaichi_fps_009_2409
+Sc 0
+AR 
+Op 0 0 0
+T0 10 -13 1 1 0 0.15 N V 21 N "yamaichi_fps_009_2409"
+T1 3 -11 1 1 0 0.15 N V 21 N "VAL**"
+DS 33 -12 34 -12 0.15 21
+DS 34 -12 35 -11 0.15 21
+DS 35 -11 35 11 0.15 21
+DS 35 11 34 12 0.15 21
+DS 34 12 33 12 0.15 21
+DS 29 -12 33 -12 0.15 21
+DS 33 -12 34 -11 0.15 21
+DS 34 -11 34 11 0.15 21
+DS 34 11 33 12 0.15 21
+DS 33 12 29 12 0.15 21
+DS 29 13.82 29 12 0.15 21
+DS 29 12 25 10 0.15 21
+DS 29 -14.18 29 -12 0.15 21
+DS 29 -12 25 -10 0.15 21
+DS 25 -10 25 10 0.15 21
+DS 0 -14.18 0 13.82 0.15 21
+DS 0 13.82 29 13.82 0.15 21
+DS 0 -14.18 29 -14.18 0.15 21
+DS 4.35 -9.88 8.15 -9.88 0.15 24
+DS 8.15 -9.88 8.15 10.24 0.15 24
+DS 8.15 10.24 4.35 10.24 0.15 24
+DS 4.35 -9.88 4.35 10.24 0.15 24
+$PAD
+Sh "1" R 2.5 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.25 -6.93
+$EndPAD
+$PAD
+Sh "2" R 2.5 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.25 -4.38
+$EndPAD
+$PAD
+Sh "3" R 2.5 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.25 -1.88
+$EndPAD
+$PAD
+Sh "4" R 2.5 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.25 0.62
+$EndPAD
+$PAD
+Sh "5" R 2.5 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.25 3.12
+$EndPAD
+$PAD
+Sh "6" R 2.5 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.25 5.62
+$EndPAD
+$PAD
+Sh "7" R 2.5 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.25 8.05
+$EndPAD
+$PAD
+Sh "8" R 2.5 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.25 9.74
+$EndPAD
+$PAD
+Sh "9" R 2.5 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.25 -9.38
+$EndPAD
+$PAD
+Sh "A" R 2.5 0.7 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.25 11.24
+$EndPAD
+$PAD
+Sh "B" R 2.5 0.7 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.25 12.24
+$EndPAD
+$PAD
+Sh "C" R 4 2.65 0 0 0
+Dr 0 0 1.325
+At SMD N 00888000
+Ne 0 ""
+Po 27.4 10.02
+$EndPAD
+$PAD
+Sh "S" R 4 2.65 0 0 0
+Dr 0 0 -1.325
+At SMD N 00888000
+Ne 0 ""
+Po 27.4 -10.03
+$EndPAD
+$PAD
+Sh "S" R 2.5 1.1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.25 -13.16
+$EndPAD
+$PAD
+Sh "" C 1.6 1.6 0 0 0
+Dr 1.6 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 23.5 12.1
+$EndPAD
+$PAD
+Sh "" C 1.6 1.6 0 0 0
+Dr 1.6 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 23.5 -12.1
+$EndPAD
+$EndMODULE yamaichi_fps_009_2409
 $EndLIBRARY

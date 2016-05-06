@@ -1,0 +1,36 @@
+PCBNEW-LibModule-V1  Sa 23 Apr 2016 15:40:01 CEST
+# encoding utf-8
+Units mm
+$INDEX
+TC-38
+$EndINDEX
+$MODULE TC-38
+Po 0 0 0 15 571B7B2A 00000000 ~~
+Li TC-38
+Sc 0
+AR 
+Op 0 0 0
+T0 -0.7 -1.05 1 1 900 0.15 N V 21 N "TC-38"
+T1 0.75 -1.05 1 1 900 0.15 N V 21 N "VAL**"
+DS 0.55 4.35 0.55 3 0.15 21
+DS -0.55 4.35 -0.55 3 0.15 21
+DS -1.6 3 1.5 3 0.15 21
+DS 1.5 3 1.5 -5 0.15 21
+DS 1.5 -5 -1.6 -5 0.15 21
+DS -1.6 -5 -1.6 3 0.15 21
+$PAD
+Sh "1" C 0.8 0.8 0 0 0
+Dr 0.5 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -0.55 5
+$EndPAD
+$PAD
+Sh "2" C 0.8 0.8 0 0 0
+Dr 0.5 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0.55 5
+$EndPAD
+$EndMODULE TC-38
+$EndLIBRARY

@@ -1,3 +1,8 @@
-EESchema-DOCLIB  Version 2.0  Date: Do 25 Jun 2015 21:56:55 CEST
+EESchema-DOCLIB  Version 2.0  Date: Mi 20 Apr 2016 19:21:02 CEST
+#
+$CMP MCP79410
+D Real-Time-Clock/Calendar
+K RTC
+$ENDCMP
 #
 #End Doc Library
