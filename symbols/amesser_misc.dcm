@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CONN_DEBUG_MCNET
+D JTAG/SWD Debug Connector according www.microcontroller.net from mmvisual
+F https://www.mikrocontroller.net/articles/JTAG
+$ENDCMP
+#
+#End Doc Library
