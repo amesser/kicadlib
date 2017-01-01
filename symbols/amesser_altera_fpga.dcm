@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Altera_Max10_DC_F256
+D Altera MAX10 Dual supply FPGA in 256FBGA case
+$ENDCMP
+#
+#End Doc Library
