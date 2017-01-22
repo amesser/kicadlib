@@ -5,4 +5,9 @@ D JTAG/SWD Debug Connector according www.microcontroller.net from mmvisual
 F https://www.mikrocontroller.net/articles/JTAG
 $ENDCMP
 #
+$CMP Crystal_SMD_4
+D Four Pas SMD Crystal
+K Quartz, Ceramic, Filter, Resonator
+$ENDCMP
+#
 #End Doc Library
