@@ -1,3 +1,13 @@
-EESchema-DOCLIB  Version 2.0  Date: Mo 18 Mai 2015 13:31:31 CEST
+EESchema-DOCLIB  Version 2.0
+#
+$CMP USB_B_3
+D USB 3.0 Type B connector
+K connector USB USB_B
+$ENDCMP
+#
+$CMP USB_Powered_B_3
+D USB 3.0 Powered-B connector
+K connector USB USB_B
+$ENDCMP
 #
 #End Doc Library
