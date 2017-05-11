@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Q_NMOS_DUAL_SO_8
+D Transistor Dual N-MOSFET, SO-8 package
+K nmos n-mos n-mosfet transistor
+$ENDCMP
+#
+$CMP Q_PMOS_DUAL_SO_8
+D Transistor Dual P-MOSFET, SO-8
+K pmos p-mos p-mosfet transistor
+$ENDCMP
+#
+#End Doc Library
